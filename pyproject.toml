@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = ""
+authors = ["Алексей <kochetkoov.ao@mail.ru>"]
+readme = "README.md"
+packages = [
+  { include = "brain_games" },
+]
+
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
