@@ -18,15 +18,15 @@ def play_even_game():
         print(f'Question: {number}')
         user_answer = prompt.string('Your answer: ')
 
-        correct_answer = 'yes' if  bool_function(number) else 'no'
+        correct_answer = 'yes' if bool_function(number) else 'no'
         if user_answer == correct_answer:
             print('Correct!')
-            correct_answers +=1
+            correct_answers += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'")
-            print("Let's try again, Bill!")
+            print(
+                f"'{user_answer}' is wrong answer ;(."
+                f"Correct answer was '{correct_answer}'")
+            print(f"Let's try again, {name}!")
             return
 
-    print('Congratulations, Sam!')
-
-
+    print(f'Congratulations, {name}!')
