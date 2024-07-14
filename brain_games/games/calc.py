@@ -11,7 +11,6 @@ def play_calc_game():
     correct_answers = 0
     operations = ['+', '-', '*']
 
-
     while correct_answers < 3:
         random1 = random.randint(1, 100)
         random2 = random.randint(1, 100)
@@ -22,7 +21,6 @@ def play_calc_game():
             correct_answer = random1 - random2
         else:
             correct_answer = random1 * random2
-
 
         print(f'Question: {random1} {operation} {random2}')
         answer = prompt.string('Your answer: ')
@@ -35,6 +33,5 @@ def play_calc_game():
                 f"Correct answer was '{correct_answer}'")
             print(f"Let's try again, {name}!")
             return
-
 
     print(f'Congratulations, {name}!')

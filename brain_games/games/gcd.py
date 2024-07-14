@@ -9,9 +9,7 @@ def play_gcd_game():
     print(f'Hello, {name}')
     print('Find the greatest common divisor of given numbers.')
 
-
     correct_answers = 0
-
 
     while correct_answers < 3:
         random1 = random.randint(1, 100)
@@ -29,10 +27,4 @@ def play_gcd_game():
             print(f"Let's try again, {name}")
             return
 
-
     print(f'Congratulations, {name}!')
-
-
-
-
-
