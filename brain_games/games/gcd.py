@@ -1,7 +1,11 @@
 import prompt
 import random
-import math
 
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
 
 def play_gcd_game():
     print('Welcome to the Brain Games!')
@@ -14,10 +18,12 @@ def play_gcd_game():
     while correct_answers < 3:
         random1 = random.randint(1, 100)
         random2 = random.randint(1, 100)
+        correct_answer = gcd(random1, random2)
+
         print(f'Question: {random1} {random2}')
         user_answer = prompt.string('Your answer: ')
-        correct_answer = math.gcd(random1, random2)
-        if user_answer == str(correct_answer):
+
+        if int(user_answer) == correct_answer:
             print('Correct!')
             correct_answers += 1
         else:
