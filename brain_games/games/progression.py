@@ -31,4 +31,3 @@ def play_progression_game():
             return
 
     print(f"Congratulations, {name}!")
-

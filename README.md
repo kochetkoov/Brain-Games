@@ -3,3 +3,5 @@
 [Тестирование игры "Brain Gcd"](https://asciinema.org/a/yXR54CbYMnmuV4o5Y4fYOsmRK)
 [Тестирование игры "Brain Even"](https://asciinema.org/a/zwcnB3TqjbH1YwV3scqnY1qNR)
 [Тестирование игры "Brain Calc"](https://asciinema.org/a/52hF5OHU309M4kxaskimsh8ac)
+[Тестирование игры "Brain Progression"](https://asciinema.org/a/AZwQQYJwAx6QzZxTOEWTlLmig)
+[Тестирование игры "Brain Prime"](https://asciinema.org/a/ZJMW1zWmmIDuLYGFN5rm73JlN)
