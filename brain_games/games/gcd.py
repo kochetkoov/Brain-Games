@@ -7,6 +7,7 @@ def gcd(a, b):
         a, b = b, a % b
     return a
 
+
 def play_gcd_game():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
