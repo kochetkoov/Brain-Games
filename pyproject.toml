@@ -1,13 +1,19 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain Games - are games for relaxation and, at the same time, for the work of the brain, the work of the mind, a complex logic puzzle. For those who, during breaks between work, strive to practice logic and mathematics."
 authors = ["Алексей <kochetkoov.ao@mail.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
 
+classifiers = [
+  "Programming Language :: Python 3",
+  "Operation System :: OS Ubuntu Linux",
+]
+
+repository = "https://github.com/kochetkoov/python-project-49"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
