@@ -1,7 +1,26 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/kochetkoov/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/kochetkoov/python-project-49/actions)
-[Тестирование игры "Brain Gcd"](https://asciinema.org/a/yXR54CbYMnmuV4o5Y4fYOsmRK)
-[Тестирование игры "Brain Even"](https://asciinema.org/a/zwcnB3TqjbH1YwV3scqnY1qNR)
-[Тестирование игры "Brain Calc"](https://asciinema.org/a/52hF5OHU309M4kxaskimsh8ac)
-[Тестирование игры "Brain Progression"](https://asciinema.org/a/AZwQQYJwAx6QzZxTOEWTlLmig)
-[Тестирование игры "Brain Prime"](https://asciinema.org/a/ZJMW1zWmmIDuLYGFN5rm73JlN)
+# Python Project 49
+
+> Инструкция по сборке и установке:
+> В вашем терминале поочередно выполните следующие команды:
+> ```Text
+> git clone https://github.com/kochetkoov/python-project-49
+> cd python-project-49
+```
+> Краткое описание проекта: проект представляет собой набор из 5 консольных игр, которые прокачают ваш мозг. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
+
+> Калькулятор. Арифметические выражения, которые необходимо вычислить.
+# Для запуска данной игры введите данную команду в терминале:
+
+> ```Text
+> brain-calc 
+```
+
+[Тестирование игры](тут нужна ссылка)
+# Прогрессия. Поиск пропущенных чисел в последовательности чисел. Чтобы запустить данную игру в терминале необходимо прописать 'brain-progression'[Тестирование игры](тут нужна ссылка)
+# Определение четного числа. [Тестирование игры](тут нужна ссылка)
+# Определение наибольшего общего делителя. [Тестрование игры](тут нужна ссылка)
+# Определение простого числа. [Тестирование игры](тут нужна ссылка)
+
+
