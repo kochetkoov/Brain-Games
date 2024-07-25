@@ -2,7 +2,7 @@ import random
 import prompt
 
 
-def in_prime(number):
+def is_prime(number):
     if number <= 1:
         return False
     for i in range(2, int(number**0.5) + 1):
@@ -23,7 +23,7 @@ def play_prime_game():
         print(f'Question: {number}')
         user_answer = prompt.string('Your answer: ')
 
-        correct_answer = 'yes' if in_prime(number) else 'no'
+        correct_answer = 'yes' if is_prime(number) else 'no'
 
         if user_answer == correct_answer:
             print('Correct!')

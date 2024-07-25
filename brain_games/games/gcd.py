@@ -9,9 +9,9 @@ def gcd(a, b):
 
 
 def play_gcd_game():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    print("Welcome to the Brain Games!")
+    name = prompt.string("May I have your name? ")
+    print(f"Hello, {name}!")
     print('Find the greatest common divisor of given numbers.')
 
     correct_answers = 0

@@ -2,6 +2,13 @@ import random
 import prompt
 
 
+def generate_progression():
+    start = random.randint(1, 10)
+    step = random.randint(1, 10)
+    length = 10
+    return [start + step * i for i in range(length)]
+
+
 def play_progression_game():
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
@@ -10,10 +17,8 @@ def play_progression_game():
 
     correct_answers = 0
     while correct_answers < 3:
-        start = random.randint(1, 10)
-        step = random.randint(1, 10)
-        length = 10
-        progression = [start + step * i for i in range(length)]
+        progression = generate_progression()
+        length = len(progression)
         missing_index = random.randint(0, length - 1)
         correct_answer = progression[missing_index]
         progression[missing_index] = ".."
