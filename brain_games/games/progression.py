@@ -15,8 +15,8 @@ def play_progression_game():
     print(f"Hello, {name}!")
     print("What number is missing in the progression?")
 
-    correct_answers = 0
-    while correct_answers < 3:
+    CORRECT_ANSWERS = 0
+    while CORRECT_ANSWERS < 3:
         progression = generate_progression()
         length = len(progression)
         missing_index = random.randint(0, length - 1)
@@ -27,7 +27,7 @@ def play_progression_game():
 
         if int(user_answer) == correct_answer:
             print("Correct!")
-            correct_answers += 1
+            CORRECT_ANSWERS += 1
         else:
             print(
                 f"'{user_answer}' is wrong answer ;(. "

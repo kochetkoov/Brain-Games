@@ -17,8 +17,9 @@ def play_prime_game():
     print(f"Hello, {name}!")
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
-    correct_answers = 0
-    while correct_answers < 3:
+    CORRECT_ANSWERS = 0
+
+    while CORRECT_ANSWERS < 3:
         number = random.randint(1, 100)
         print(f'Question: {number}')
         user_answer = prompt.string('Your answer: ')
@@ -27,7 +28,7 @@ def play_prime_game():
 
         if user_answer == correct_answer:
             print('Correct!')
-            correct_answers += 1
+            CORRECT_ANSWERS += 1
         else:
             print(
                 f"'{user_answer}' is wrong answer ;(."
