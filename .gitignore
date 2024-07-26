@@ -2,4 +2,6 @@
 .idea/
 dist/
 brain_games/scripts/__pycache__/__init__.cpython-312.pyc
-brain_games/scripts/__pychache__
+brain_games/scripts/__pychache__/
+brain_games/games/__pycache__/
+
