@@ -12,5 +12,5 @@ def generate_question_and_answer():
         answer = operator.sub(random1, random2)
     else:
         answer = operator.mul(random1, random2)
-    question = f'{random1}{operation}{random2}'
+    question = f'{random1} {operation} {random2}'
     return question, answer
