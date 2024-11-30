@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/kochetkoov/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/kochetkoov/python-project-49/actions)
+<a href="https://codeclimate.com/github/kochetkoov/Brain-Games/test_coverage"><img src="https://api.codeclimate.com/v1/badges/eb49940452db8749946c/test_coverage" /></a>
 ## Brain Games Project
 
 ### Instructions for Downloading the Repository
