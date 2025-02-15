@@ -29,13 +29,13 @@ This game involves solving arithmetic expressions. To start this game, enter the
 ```sh
 brain-calc
 ```
- [![asciicast](https://asciinema.org/a/btwmKEkrRVQ5INeBuUwgCcvwc.svg)](https://asciinema.org/a/btwmKEkrRVQ5INeBuUwgCcvwc)
+ ![asciicast](https://asciinema.org/a/btwmKEkrRVQ5INeBuUwgCcvwc.svg)]
 ### Game "Brain Progression"
 In this game, the player is shown a random sequence of numbers that form an arithmetic progression, with one number replaced by two dots. The player must identify the missing number in the sequence. To play this game, enter the following command in the terminal:
 ```sh
 brain-progression
 ```
-[![asciicast](https://asciinema.org/a/pJYrFQLv8DtCcVcR2pX75Texn.svg)](https://asciinema.org/a/pJYrFQLv8DtCcVcR2pX75Texn)
+ ![asciicast](https://asciinema.org/a/pJYrFQLv8DtCcVcR2pX75Texn.svg)]
 ### Game "Brain Even"
 This game involves identifying whether a number is even or odd. The player is shown a random number and needs to respond with "yes" if the number is even, or "no" if it's odd. To play this game, enter the following command in the terminal:
 ```sh
